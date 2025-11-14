@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { encode } from '@/app/lib/jwt';
+import { encode } from '@/lib/jwt';
 
 interface RequestBody {
   email: string;
